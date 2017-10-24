@@ -1,0 +1,123 @@
+.featured-products {
+  margin-top: 50px;
+  h2 {
+    font-size: 24px;
+    color: $text-black2;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  ul.featured-products-nav {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    li {
+      margin: auto;
+      a {
+        font-size: 14px;
+        color:$text-black2;
+        padding-bottom: 10px;
+        transition: $trans;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fff;
+        &:hover {
+          color: #737373;
+          border-bottom: 1px solid $gold;
+        }
+      }
+    }
+  }
+  ul.featured-products {
+    margin: 25px 0 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    li {
+      margin: 0 auto;
+      img {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    a.product-name {
+      font-family: $poppins;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: $text-black2;
+      display: block;
+    }
+    a.brand {
+      color: #737373;
+      font-family: $poppins;
+    }
+    a.price {
+      color: $text-black2;
+    }
+    .old-price {
+      color: #737373;
+      text-decoration: line-through;
+
+    }
+  }
+}
+
+.product-categories {
+  margin-top: 25px;
+  display: flex;
+  > div {
+    margin: 0 auto;
+    position: relative;
+    &:hover {
+      img {
+        opacity: 0.4;
+      }
+      .holder {
+        opacity: 1;
+      }
+    }
+    img {
+      max-width: 100%;
+      transition: $trans;
+
+    }
+    .holder {
+      position: absolute;
+      width: 100%;
+      opacity: 0;
+      // height: 100%;
+      text-align: center;
+      top:50%;
+      transform: translate(0, -50%);
+      transition: $trans;
+
+    h3 {
+      font-size: 34px;
+      color: $text-black2;
+      text-align: center;
+      font-family: $poppins;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 18px;
+      color: $text-black2;
+      text-align: center;
+      font-family: $poppins;
+    }
+    a.read-more {
+      color: #fff;
+      background: $text-black2;
+      font-family: $poppins;
+      padding: 5px 8px 5px 8px;
+      text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      transition: $trans;
+      &:hover {
+        color: $gold;
+       }
+      }
+     }
+    }
+   }

@@ -1,0 +1,114 @@
+.side {
+  border-left: 1px solid $light-grey;
+  padding-left: 30px;
+  margin-top: -26px;
+  padding-top: 26px;
+@include tablet {
+  padding: 0;
+}
+  .most-viewed-top {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background: $text-black2;
+    padding: 5px;
+    font-family: $poppins;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  ul.most-viewed {
+    margin: 0;
+    padding: 30px 0 30px 30px;
+    margin-left: -30px;
+    border-bottom: 1px solid $light-grey;
+    li {
+      list-style: none;
+      clear: both;
+      display: block;
+      margin-bottom: 10px;
+      height: 75px;
+      img {
+        float: left;
+        margin-right: 30px;
+      }
+      p {
+        font-size: 14px;
+        color: $text-black2;
+        font-family: $playfair;
+        float: left;
+      }
+      p.category-top {
+      font-family: $poppins;
+      color: $gold;
+      font-size: 14px;
+      }
+    }
+  }
+  .side__social__holder {
+    width: 100%;
+    border-bottom: 1px solid $light-grey;
+    margin-left: -30px;
+    padding-left: 60px;
+  ul.side__social {
+    width: 160px;
+    display: flex;
+    padding: 30px 0 30px 0;
+
+    border-bottom: none;
+    li {
+      margin: 0 auto;
+      list-style: none;
+      i {
+        color: #19171c;
+      }
+    }
+  }
+}
+  .newsletter {
+    text-align: center;
+    padding: 30px 0 30px 30px;
+    margin-left: -30px;
+    border-bottom: 1px solid $light-grey;
+    h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+    input[type="text"] {
+      background: $light-grey;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+    }
+    button[type="submit"] {
+      border: none;
+      box-shadow: none;
+      outline: none;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      background: $text-black2;
+      padding: 8px;
+      font-family: $poppins;
+      font-weight: 300;
+      width: 100%;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+  .categories {
+    text-align: center;
+    padding: 30px 0 30px 30px;
+    margin-left: -30px;
+    border-bottom: 1px solid $light-grey;
+    img {
+      margin-top: 10px;
+    }
+  }
+}

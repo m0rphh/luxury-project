@@ -1,0 +1,30 @@
+.main-navigation {
+ width: 80%;
+ display: block;
+ margin: 0 auto;
+ padding-top: 25px;
+ padding-bottom: 20px;
+ @include tablet {
+   display: none;
+ }
+  .nav {
+    li {
+      margin: 0 auto;
+
+      a {
+        color: $text-black;
+        font-family: $poppins;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-top: 25px;
+
+        font-size: 16px;
+        // transition: all 1s ease;
+        &:hover {
+          border-top: 1px solid $gold;
+        }
+      }
+    }
+  }
+}
